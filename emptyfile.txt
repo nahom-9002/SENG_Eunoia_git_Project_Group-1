@@ -1,0 +1,3 @@
+you should act as per the instructions in the git projecct doc file 
+please first switch or rename your branch name form "main" to "seng_group_number"
+and add memebers.txt containing name of members of students
