@@ -1,22 +1,44 @@
 1. What command initializes a new Git repository?
+-> git init
 2. How do you clone an existing repository from GitHub?
+-> git clone URL(E.g: git clone https://github.com/username/repository.git )
 3. How do you check the remote URL of your repository?
+-> git remote -v
 4. How do you check the current status of files in your repository?
+-> git status
 5. How do you stage a single file for commit?
+-> git add filename(E.g: git add questions.txt)
 6. How do you stage all modified files at once?
+-> git add --all or git add .
 7. What command is used to commit staged changes with a message?
+-> git commit -m "commit message"
 8. Which command shows the differences between unstaged changes and the last commit?
+-> git diff
 9. How do you see the differences for files that are already staged for commit?
+-> git giff --staged
 10. Which command displays the commit history?
+-> git log
 11. How do you show commit history in one line per commit?
+-> git log --oneline
 12. How do you list all local branches?
+-> git branch
 13. How do you create a new branch?
+-> git branch branch_name
 14. How do you switch to an existing branch?
+-> git checkout branch_name
 15. How can you create a new branch and switch to it at the same time?
+-> git checkout -b branch_name
 16. How do you merge a branch into your current branch?
+-> git merge branch_name
 17. What happens if there are conflicting changes during a merge?
+-> Git stops the merge process and asks the user to manually resolve the conflicts.
 18. What command is used to pull changes from the remote repository?
+-> git pull
 19. What command is used to push your local commits to the remote repository?
+-> git push
 20. What should you do if `git pull` says “Your local changes would be overwritten by merge”?
+-> You should commit or stash your local changes before running git pull again.
 21. What is a Git conflict?
+-> A Git conflict occurs when Git cannot automatically merge changes from different sources.
 22. When does a conflict occur?
+-> A conflict occurs when two branches modify the same line of a file differently.
